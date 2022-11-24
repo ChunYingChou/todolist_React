@@ -21,7 +21,7 @@
 1. 將專案 clone 至本地，至終端機輸入：
 
    ```
-   git clone [https://github.com/ChunYingChou/alpha_shop.git](https://github.com/ChunYingChou/todolist_React.git)
+   git clone https://github.com/ChunYingChou/todolist_React.git
    ```
 
 2. 執行專案，輸入：
