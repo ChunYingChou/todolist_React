@@ -14,6 +14,12 @@
   - Login Page http://localhost:3000/login
   - SignUp Page http://localhost:3000/signup
   - Todo Page http://localhost:3000/todo
+  
+- 功能
+  - 使用者可輸入待辦事項
+  - 使用者可修改/刪除已輸入的項目
+  - 使用者可點擊標記已完成的項目
+  - 畫面會更新剩餘的待辦事項數目
  
 
 ### 使用指南
