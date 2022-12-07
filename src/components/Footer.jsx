@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+// import { useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import { useAuth } from 'contexts/AuthContext';
 
 const StyledFooter = styled.footer`
   display: flex;
@@ -32,10 +35,27 @@ const StyledButton = styled.button`
 `;
 
 const Footer = ({ amount }) => {
+  // const navigate = useNavigate();
+
+  const { logout } = useAuth();
+
+  const handleClick = () => {
+    // localStorage.removeItem('authToken');
+    logout();
+    Swal.fire({
+      title: '您已成功登出!',
+      icon: 'success',
+      showConfirmButton: false,
+      position: 'top',
+      timer: 1000,
+    });
+    // navigate('/login');
+  };
+
   return (
     <StyledFooter>
-      <p>剩餘項目數： { amount }</p>
-      <StyledButton>登出</StyledButton>
+      <p>剩餘項目數： {amount}</p>
+      <StyledButton onClick={handleClick}>登出</StyledButton>
     </StyledFooter>
   );
 };
