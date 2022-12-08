@@ -13,7 +13,14 @@
   - HomePage http://localhost:3000
   - Login Page http://localhost:3000/login
   - SignUp Page http://localhost:3000/signup
-  - Todo Page http://localhost:3000/todo
+  - Todo Page http://localhost:3000/todos
+  
+- 部屬後的線上頁面
+  - HomePage https://chunyingchou.github.io/todolist_React/
+  - Login Page https://chunyingchou.github.io/todolist_React/login
+  - SignUp Page https://chunyingchou.github.io/todolist_React/signup
+  - Todo Page https://chunyingchou.github.io/todolist_React/todos 
+  
   
 - 功能
   - 使用者可輸入待辦事項
